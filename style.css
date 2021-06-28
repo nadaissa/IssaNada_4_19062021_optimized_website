@@ -283,8 +283,19 @@ a:hover {
     padding-left: 0;
 }
 
+.main-logo {
+    height: 40px;
+    width: 220px;
+
+}
+
 #bloc-1-hero h1 {
     font-size: 32px;
+}
+
+.image-resize-mode {
+    width: 100px;
+    height: 100px;
 }
 
 .navbar {
@@ -361,6 +372,27 @@ a:hover {
     position: relative;
     z-index: 2;
 }
+
+/*IMAGES WIDTH AND HEIGHT SPECIFICATION - SEO PERFORMANCE AUDIT - NADA ISSA - 2021*/
+.main-logo {
+    height: 40px;
+    width: 220px;
+
+}
+
+.image-resize-mode {
+    width: 100px;
+    height: 100px;
+}
+
+.portfolio-thumb {
+    width: 320px;
+    height: 290px;
+    object-fit: cover;
+}
+
+
+/*end IMAGES WIDTH AND HEIGHT SPECIFICATION - SEO PERFORMANCE AUDIT - NADA ISSA - 2021*/
 
 @media (min-width: 768px) {
     .site-navigation {
