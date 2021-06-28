@@ -373,7 +373,7 @@ a:hover {
     z-index: 2;
 }
 
-/*IMAGES WIDTH AND HEIGHT SPECIFICATION - SEO PERFORMANCE AUDIT - NADA ISSA - 2021*/
+/*IMAGES MODIFICATION AND SPECIFICATION - SEO PERFORMANCE AUDIT - NADA ISSA - 2021*/
 .main-logo {
     height: 40px;
     width: 220px;
@@ -391,8 +391,11 @@ a:hover {
     object-fit: cover;
 }
 
+.text-footer {
+    color: #373737!important;
+}
 
-/*end IMAGES WIDTH AND HEIGHT SPECIFICATION - SEO PERFORMANCE AUDIT - NADA ISSA - 2021*/
+/*end MODIFICATION AND SPECIFICATION -SEO PERFORMANCE AUDIT - NADA ISSA - 2021*/
 
 @media (min-width: 768px) {
     .site-navigation {
