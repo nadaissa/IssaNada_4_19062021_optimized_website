@@ -283,11 +283,6 @@ a:hover {
     padding-left: 0;
 }
 
-.main-logo {
-    max-height: 40px;
-    max-width: 320px;
-
-}
 
 #bloc-1-hero h1 {
     font-size: 32px;
@@ -1001,8 +996,8 @@ h4 {
         box-shadow: none;
     }
     .navbar-brand img {
-        max-height: 40px;
-        max-width: 320px;
+        height: 40px;
+        width: 220px;
     }
     .nav-invert .navbar-header {
         float: none;
