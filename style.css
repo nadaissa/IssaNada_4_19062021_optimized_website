@@ -392,7 +392,10 @@ a:hover {
 }
 
 .text-footer {
-    color: #373737!important;
+    color: #FFFFFF!important;
+}
+.text-cp {
+    color: #FFFFFF!important;
 }
 
 /*end MODIFICATION AND SPECIFICATION -SEO PERFORMANCE AUDIT - NADA ISSA - 2021*/
@@ -806,15 +809,15 @@ h4 {
 }
 
 .bgc-atomic-tangerine {
-    background-color: #F3976C;
+    background-color: #373737;
 }
 
 .tc-white {
-    color: #F3976C!important;
+    color: #FFFFFF!important;
 }
 
 .btn-atomic-tangerine {
-    background: #F3976C;
+    background: #373737;
     color: #FFFFFF!important;
 }
 
