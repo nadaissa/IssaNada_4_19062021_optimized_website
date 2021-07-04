@@ -284,8 +284,8 @@ a:hover {
 }
 
 .main-logo {
-    height: 40px;
-    width: 220px;
+    max-height: 40px;
+    max-width: 320px;
 
 }
 
@@ -375,8 +375,8 @@ a:hover {
 
 /*IMAGES MODIFICATION AND SPECIFICATION - SEO PERFORMANCE AUDIT - NADA ISSA - 2021*/
 .main-logo {
-    height: 40px;
-    width: 220px;
+    max-height: 40px;
+    max-width: 220px;
 
 }
 
@@ -1002,7 +1002,7 @@ h4 {
     }
     .navbar-brand img {
         max-height: 40px;
-        width: auto;
+        max-width: 320px;
     }
     .nav-invert .navbar-header {
         float: none;
