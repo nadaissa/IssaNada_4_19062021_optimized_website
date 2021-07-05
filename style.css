@@ -393,6 +393,10 @@ a:hover {
     color: #FFFFFF!important;
 }
 
+.fa-twitter, .fa-facebook, .fa-dribbble, .fa-instagram {
+    margin-right: 10px;
+}
+
 /*end MODIFICATION AND SPECIFICATION -SEO PERFORMANCE AUDIT - NADA ISSA - 2021*/
 
 @media (min-width: 768px) {

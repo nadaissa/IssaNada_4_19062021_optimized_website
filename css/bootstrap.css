@@ -1437,7 +1437,7 @@ img {
 .img-responsive,
 .thumbnail a>img,
 .thumbnail>img {
-    display: block;
+    /*display: block;*/
     max-width: 100%;
     height: auto
 }
@@ -2333,7 +2333,7 @@ pre code {
         width: 33.33333333%
     }
     .col-sm-3 {
-        width: 25%
+        width: 100%
     }
     .col-sm-2 {
         width: 16.66666667%
