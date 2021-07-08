@@ -416,6 +416,10 @@ a:hover {
     margin-bottom: 8px;
 }
 
+.footer-link:hover, .footer-link:focus{
+    text-decoration: underline;
+}
+
 /*end MODIFICATION AND SPECIFICATION -SEO PERFORMANCE AUDIT - NADA ISSA - 2021*/
 
 @media (min-width: 768px) {
