@@ -401,6 +401,9 @@ a:hover {
 .fa-twitter:hover, .fa-facebook:hover, .fa-dribbble:hover, .fa-instagram:hover {
     border-left: solid #fff;
 }
+.fa-twitter:focus, .fa-facebook:focus, .fa-dribbble:focus, .fa-instagram:focus {
+    border-left: solid #fff;
+}
 
 .form-elem-margin{
     margin-bottom: 15px
