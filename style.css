@@ -396,6 +396,7 @@ a:hover {
 
 .fa-twitter, .fa-facebook, .fa-dribbble, .fa-instagram {
     margin-right: 10px;
+    margin-top: 8px;
 }
 
 .fa-twitter:hover, .fa-facebook:hover, .fa-dribbble:hover, .fa-instagram:hover {
@@ -407,6 +408,12 @@ a:hover {
 
 .form-elem-margin{
     margin-bottom: 15px
+}
+
+.footer-link{
+    color: #FFFFFF!important;
+    display: block;
+    margin-bottom: 8px;
 }
 
 /*end MODIFICATION AND SPECIFICATION -SEO PERFORMANCE AUDIT - NADA ISSA - 2021*/
