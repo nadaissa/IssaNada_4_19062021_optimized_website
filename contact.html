@@ -2,7 +2,7 @@
 <html lang="fr">
 <head>
     <meta charset="utf-8">
-    <meta name="keywords" content="la chouette agence Lyon, web desing, agence web desing lyon, stratégies commerciales web design, graphistes web designer">
+    <meta name="keywords" content="la chouette agence Lyon, web desing, agence web desing lyon, entreprise web design Lyon, stratégies commerciales web design, graphistes web designer">
     <meta name="description" content="La chouette agence est une agence lyonnaise de web design qui aide les entreprises à se développer et augmenter leur visibilité. Que ce soit par la création d'un nouveau site ou la refonte d'un site web existant, nous vous accompagnons de A à Z pour atteindre vos objectifs et réaliser votre vision. Parlez-nous de votre projet!">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
     <link rel="shortcut icon" type="image/png" href="favicon.jpg">
@@ -25,6 +25,15 @@
 
     
 <!-- Analytics -->
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-DQS83P94E8"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-DQS83P94E8');
+</script>
  
 <!-- Analytics END -->
     
@@ -88,33 +97,19 @@
 	<div class="container bloc-lg">
 		<div class="row">
 			<div class="col-sm-6">
-				<form id="form_1" novalidate success-msg="Your message has been sent." fail-msg="Sorry it seems that our mail server is not responding, Sorry for the inconvenience!">
-					<div class="form-group">
-						<label for="name">
-							Nom
-						</label>
-						<input id="name" class="form-control" required />
-					</div>
-					<div class="form-group">
-						<label for="email">
-							Adresse email
-						</label>
-						<input id="email" class="form-control" type="email" required />
-					</div>
-					<div class="form-group">
-						<label for="input_504">
-							Comment nous avez-vous connu ?
-						</label>
-						<input id="input_504" class="form-control" type="email" required  />
-					</div>
-					<div class="form-group">
-						<label for="message">
-							Brief de votre projet (Ajoutez autant de détails que nécessaire)<br>
-						</label><textarea id="message" class="form-control" rows="4" cols="50" required></textarea>
-					</div> 
-					<button class="bloc-button btn btn-lg btn-block cta-hero btn-atomic-tangerine" type="submit">
-						Envoyer
-					</button>
+				<form id="form_1" oninvalid="alert('Veuillez compléter le formulaire');" onsubmit="alert('Réussi! Nous vous contacterons rapidement!')">
+					<fieldset>
+						<legend>Parlez-nous de votre projet</legend>
+						<label for="name">Nom</label>
+						<input id="name" class="form-control form-elem-margin" required />
+						<label for="email">Adresse email</label>
+						<input id="email" class="form-control form-elem-margin" type="email" required />
+						<label for="input_504">Comment nous avez-vous connu ?</label>
+						<input id="input_504" class="form-control form-elem-margin" type="text" required  />
+						<label for="message">Brief de votre projet (Ajoutez autant de détails que nécessaire)</label>
+						<textarea id="message" class="form-control form-elem-margin" rows="4" cols="50" required></textarea>
+						<button class="bloc-button btn btn-lg btn-block cta-hero btn-atomic-tangerine" type="submit">Envoyer</button>
+					</fieldset>
 				</form>
 			</div>
 		</div>

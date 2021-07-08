@@ -370,8 +370,8 @@ a:hover {
 
 /*IMAGES MODIFICATION AND SPECIFICATION - SEO PERFORMANCE AUDIT - NADA ISSA - 2021*/
 .main-logo {
-    max-height: 40px;
-    max-width: 220px;
+    height: 40px;
+    width: 220px;
 
 }
 
@@ -395,6 +395,10 @@ a:hover {
 
 .fa-twitter, .fa-facebook, .fa-dribbble, .fa-instagram {
     margin-right: 10px;
+}
+
+.form-elem-margin{
+    margin-bottom: 15px
 }
 
 /*end MODIFICATION AND SPECIFICATION -SEO PERFORMANCE AUDIT - NADA ISSA - 2021*/
@@ -886,13 +890,13 @@ h4 {
     }
 }
 
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+@media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
     .b-parallax {
         background-attachment: scroll;
     }
 }
 
-@media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) {
+@media only screen and (min-width: 1024px) and (max-width: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) {
     .b-parallax {
         background-attachment: scroll;
     }
