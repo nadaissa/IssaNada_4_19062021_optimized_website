@@ -341,6 +341,7 @@ a:hover {
 .nav > li a:hover,
 .nav > li a:focus {
     background: transparent;
+    text-decoration: underline;
 }
 
 .navbar-toggle {
@@ -395,6 +396,10 @@ a:hover {
 
 .fa-twitter, .fa-facebook, .fa-dribbble, .fa-instagram {
     margin-right: 10px;
+}
+
+.fa-twitter:hover, .fa-facebook:hover, .fa-dribbble:hover, .fa-instagram:hover {
+    border-left: solid #fff;
 }
 
 .form-elem-margin{
@@ -826,8 +831,9 @@ h4 {
 }
 
 .btn-atomic-tangerine:hover {
-    background: #c27956!important;
+    background: #B85345!important;
     color: #FFFFFF!important;
+    text-decoration: underline;
 }
 
 .ltc-white {
